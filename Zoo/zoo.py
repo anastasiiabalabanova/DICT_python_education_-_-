@@ -137,3 +137,22 @@ The rabbit habitat...
 It looks fine! 
 --- 
 You've reached the end of the program."""
+
+name = input("Please enter the number of the habitat you would like to view or use 'exit' for exit:")
+
+if name == '1':
+    print(camel)
+elif name == '2':
+    print(rabbit)
+elif name == '3':
+    print(deer)
+elif name == '4':
+    print(lion)
+elif name == '5':
+    print(goose)
+elif name == '6':
+    print(bat)
+elif name == 'exit':
+    break
+else:
+    print("no correct operatoin")
