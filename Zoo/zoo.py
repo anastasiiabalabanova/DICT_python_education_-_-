@@ -138,6 +138,7 @@ It looks fine!
 --- 
 You've reached the end of the program."""
 
+while True:
 name = input("Please enter the number of the habitat you would like to view or use 'exit' for exit:")
 
 if name == '1':
